@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4e1b4569-1ee1-4639-896c-3022ecfca725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{fa060dee-9b80-48d2-b44e-02402452d648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{4b9d9839-becc-4b53-bb3c-53f1fa3a94b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{4f707a82-20cf-4ac3-9bfc-3f914a085fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\map">
+      <UniqueIdentifier>{748bbcc8-6583-4924-bb45-8e90471d6df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\systems">
+      <UniqueIdentifier>{6aa81146-0c45-4068-9125-8fff43d348a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils">
+      <UniqueIdentifier>{52c70a43-b795-429d-a018-ed57ee0dbb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{47ebd18f-c701-4ddc-a9fb-a393a3c9e6b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\enemy">
+      <UniqueIdentifier>{f4eab312-99c5-40c1-80b7-a1ab7b0cd6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\map">
+      <UniqueIdentifier>{dfccb101-a40e-4627-90a6-92e7a8a0c02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\systems">
+      <UniqueIdentifier>{2c37149e-8c53-43c5-b146-25a2ef2bd563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tower">
+      <UniqueIdentifier>{96749912-cbcf-49de-a146-752a57fbe10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{ef1f6806-7a85-4724-b707-d8b9ee337f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{3473b1d6-a773-4bbb-8b22-2c58c8957e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wave">
+      <UniqueIdentifier>{d64caac9-c906-4ad0-bbfe-c9bba4a49e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\enemy">
+      <UniqueIdentifier>{851af148-2e19-49db-b784-a74ff5a66f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\wave">
+      <UniqueIdentifier>{2f1c122e-aaa3-43bc-a504-a2e99976025f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ui">
+      <UniqueIdentifier>{488a5505-a068-4d16-8fd4-7c1b8544bb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tower">
+      <UniqueIdentifier>{5cb31d8d-e98c-4fb9-ad3a-5af936f8d855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
+    <None Include="..\README.md" />
+    <None Include="..\docs\CREDITS.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\docs\GDD.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\docs\README.md">
+      <Filter>docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\game.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\GameConfig.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\GameEvents.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\GameState.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\enemy\Enemy.cpp">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\enemy\EnemyManager.cpp">
+      <Filter>src\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\map\Map.cpp">
+      <Filter>src\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\map\Path.cpp">
+      <Filter>src\map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\DrawHelpers.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\Math.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\Timer.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\HUD.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\Screens.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tower\Tower.cpp">
+      <Filter>src\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tower\TowerManager.cpp">
+      <Filter>src\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\systems\UISystem.cpp">
+      <Filter>src\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wave\Spawner.cpp">
+      <Filter>src\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wave\WaveSystem.cpp">
+      <Filter>src\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\systems\EnemySystem.cpp">
+      <Filter>src\systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\core\Game.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\GameConfig.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\GameEvents.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\GameState.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\map\Map.h">
+      <Filter>include\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\map\Path.h">
+      <Filter>include\map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\DrawHelpers.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\Math.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\Timer.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\systems\EnemySystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\systems\TowerSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\systems\UISystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\systems\WaveSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\enemy\Enemy.h">
+      <Filter>include\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\enemy\EnemyManager.h">
+      <Filter>include\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\enemy\EnemyTypes.h">
+      <Filter>include\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tower\Tower.h">
+      <Filter>include\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tower\TowerManager.h">
+      <Filter>include\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ui\HUD.h">
+      <Filter>include\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ui\Screens.h">
+      <Filter>include\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wave\Spawner.h">
+      <Filter>include\wave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wave\WaveSystem.h">
+      <Filter>include\wave</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

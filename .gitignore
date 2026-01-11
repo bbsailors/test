@@ -1,0 +1,36 @@
+
+# build
+build/
+/build/
+
+# VS Code
+.vscode/
+
+# Build output
+*.exe
+*.out
+
+# Visual Studio
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+CMakeSettings.json
+
+# Build outputs
+x64/
+Debug/
+Release/
+
+# IntelliSense
+*.ipch
+*.db
+*.opendb
+
+# Raylib dll (local only)
+raylib.dll
+
+# Duplicate files in Guards of The Deep folder
+Guards of The Deep/Tower.cpp
+Guards of The Deep/WaveSystem.cpp
